@@ -186,17 +186,10 @@ max_number = int(input("Enter the maximum number: "))
 find_primes_in_range(min_number, max_number)
 
 '''
-Write a python code to print the sum of odd digits in a number. f input : 2355 output : 13)
+5.Write a python code to print the sum of odd digits in a number. f input : 2355 output : 13)
 '''
 def sum_of_odd_digits(number):
-  """Calculates the sum of odd digits in a number.
-
-  Args:
-    number: The input number (integer).
-
-  Returns:
-    The sum of odd digits.
-  """
+  
 
   sum_odd = 0
   number_str = str(number)  
